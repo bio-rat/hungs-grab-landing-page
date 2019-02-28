@@ -2,6 +2,7 @@
   box-sizing: border-box; 
   margin: 0;
   padding: 0;
+  font-family: 'Sanomat Grab Web Regular', sans-serif;
 }
 .container {
   height: inherit;
@@ -231,20 +232,51 @@ div.download h2 {
   text-align: center;
   color: #fff;
   margin: 0 auto;
+  padding: 23px 0px;
+  font-weight: 600;
+  font-size: 2.571em;
+  font-family: "Segoe UI",Arial,sans-serif;
 }
 #or {
-  margin: auto 0;
+  margin: auto 35px;
+  color: white;
+  font-size: 1.000em;
 }
 ul.flex {
   list-style-type: none;
   justify-content: center;  
 }
-.store {
+li.store {
   flex-direction: column;
+  justify-content: flex-end;
+}
+.store img {
+  width: 148px;
+  height: 51px;
+}
+#QR img {
+  width: 120px;
+  height: 120px;
+}
+#QR h4 {
+  font-weight: 700;
+  color: #fff;
+  font-size: 16px;
+  
+}
+#google-play {
+  margin-top: 18px;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+#app-store {
+  border: 1px solid white;
+  border-radius: 5px;
+}
+div.container.flex {
+  align-items: center;
   justify-content: center;
 }
-
-
 header { 
   height: 805px; 
   /* background-color: orange;  */
