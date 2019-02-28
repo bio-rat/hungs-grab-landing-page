@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="shortcut icon" type="image/png" href="img/myFace.JPG"/>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Clone Grab</title>
+    <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  </head>
+  <body>
+    <nav>
+        <div class="container">
+          <ul class="nav-items">
+            <li class="">
+              <img id="Grab-logo" src="img/Grab_logo.png" alt="Grab logo">
+            </li>
+            <li class="">
+              <img id="vn" src="img/vn.png" alt="vietnam">
+            </li>
+            <li class="">
+              <a href="#">Services</a>
+            </li>
+            <li class="">
+              <a href="#">Corporate</a>
+            </li>
+            <li id="Grab-by-moca"  class="">
+              <a href="#"></a>
+            </li>
+            <li id="Grab-reward" class="">
+              <a href="#"></a>
+            </li>
+            <li id="driver">
+              <a href="#">Drive with Grab</a>
+            </li>
+            <li class="">
+              <a href="#">Help centre</a>
+            </li>
+            <li id="Sign-up-person" class="">
+              <a href="#"></a>
+            </li>
+            <li id="tieng-viet">
+              <a href="#">Tiếng Việt</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- i do not write from this -->
+    <hero class=""> 
+        <div class="w3-content w3-display-container" style="max-width:100%">
+          <img class="mySlides" src="https://assets.grab.com/wp-content/uploads/sites/11/2018/10/15123832/grab_safety_headerimage.png" style="width:100%">
+          <img class="mySlides" src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/01_hero_banner.jpg" style="width:100%">
+          <img class="mySlides" src="https://assets.grab.com/wp-content/uploads/sites/11/2016/05/10114941/GrabFood-EX-Desktop-HeaderImageV1-Homepage.jpg" style="width:100%">
+          <img class="mySlides" src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/driver.jpg" style="width:100%">
+          <img class="mySlides" src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/02_hero_banner.jpg" style="width:100%">
+          <div class="w3-center w3-container w3-section w3-large w3-text-white w3-display-bottommiddle" style="width:100%">
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(4)"></span>
+          <span class="w3-badge demo w3-border w3-transparent w3-hover-white" onclick="currentDiv(5)"></span>
+          </div>
+        </div>
+    </hero>
+    <!-- to this -->
+    <section>
+      <div class="container">
+        <h2>How Grab Works</h2>
+        <p>Use Grab to go anywhere freely</p>
+        <div class="howto flex">
+          <div>
+            <img id="grab-a-phone" src="img/empty-v2.png" alt="grab a phone">
+          </div>
+          <div>
+            <ol>
+              <li>
+                <h4>Book in just 2 tap</h4>
+                <p>Key in your pick-up and drop-off locations to get your estimated fare.</p>
+              </li>
+              <li>
+                <h4>Get a Driver</h4>
+                <p>Grab will find you the nearest available driver.</p>
+              </li>
+              <li>
+                <h4>Track Your Driver</h4>
+                <p>Know your driver’s location and ETA in real-time.</p>
+              </li>
+              <li>
+                <h4>Arrive Safely</h4>
+                <p>Share your trip details with loved ones for added safety or even just to let them know you’re on your way.</p>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+    <div class="banner">
+      <h2>What you should know before your first Grab ride</h2>
+      <a href="#">Click to learn</a>
+    </div>
+    <div class="download">
+      <div class="container">
+        <h2>Download Grab</h2>
+        <ul class="flex">
+          <li>
+            <p>Scan QR Code</p>
+            <img src="https://www.grab.com/vn/wp-content/uploads/sites/11/2016/05/pax_vn.jpg" alt="QR code">
+          </li>
+          <li id="or">Or</li>
+          <li>
+            <ul class="store flex">
+              <li><img src="https://www.grab.com/vn/wp-content/uploads/media/images/footer/app-store.png" alt="app-store"></li>
+              <li><img src="https://www.grab.com/vn/wp-content/uploads/media/images/footer/google-play.png" alt="google-play"></li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <footer>
+      <div class="container ">
+        
+      </div>
+    </footer>
+    <!-- i do not write from this -->
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+      function plusDivs(n) {
+        showDivs(slideIndex += n);
+      }
+      function currentDiv(n) {
+        showDivs(slideIndex = n);
+      }
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {slideIndex = 1}
+        if (n < 1) {slideIndex = x.length}
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";  
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" w3-white", "");
+        }
+        x[slideIndex-1].style.display = "block";  
+        dots[slideIndex-1].className += " w3-white";
+      }
+      </script> 
+      <!-- to this -->
+  </body>
+</html>

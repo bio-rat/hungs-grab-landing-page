@@ -1,0 +1,281 @@
+* { 
+  box-sizing: border-box; 
+  margin: 0;
+  padding: 0;
+}
+.container {
+  height: inherit;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+nav { 
+  height: 64px; 
+  background-color: rgba(255,255,255,0.9);
+  color: #000;
+  font-size: 1.150em;
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  border-bottom: solid 1px #ddd;
+  z-index: 1;
+}
+.nav-items {
+  /* border: 2px solid red; */
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  justify-content: space-between;
+  height: 100%;
+}
+body {
+  font-family: 'Sanomat Grab Web Regular', sans-serif;
+  font-weight: 500;
+}
+
+li a {
+  text-decoration: none;
+  font-size: 1.150em;
+  line-height: 30px;
+  font-weight: 400;
+}
+li a:hover {
+  color: #00b13f;
+}
+#Grab-logo {
+  margin-top: 7px 15px 0px 0px;
+  width: 91px;
+  height: 35px;
+}
+#vn {
+  width: 28px;
+  height: 28px;
+  /* display: block; */
+  /* background-size: cover; */
+  /* margin: auto; */
+  /* margin-bottom: 10px; */
+}
+#Grab-by-moca {
+  background-image: url(https://assets.grab.com/wp-content/uploads/media/GrabPayVn-LogoGPM-bw.png);
+  background-size: 90px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 10px;
+  width: 100px;
+  height: 58px;
+  /* border: 2px red solid; */
+}
+#Grab-by-moca:hover {
+  background-image: url(https://assets.grab.com/wp-content/uploads/media/GrabPayVn-LogoGPM-green.png);
+}
+#Grab-reward {
+  background-image: url(https://assets.grab.com/wp-content/uploads/media/grabrewards_logo_inline_black.png);
+  background-size: 140px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 10px;
+  width: 140px;
+  height: 58px;
+}
+#Grab-reward:hover {
+  background-image: url(https://assets.grab.com/wp-content/uploads/media/grabrewards_logo_inline_green.png);
+}
+#Sign-up-person {
+  background-image: url(img/fa-user-black.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 10px;
+  width: 21px;
+  height: 28px;
+}
+#Sign-up-person:hover {
+  background-image: url(img/fa-user-black\ -\ green.png);
+}
+#driver {
+  border: solid 2px #00b13f;
+  border-radius: 5px;
+  color: #00b13f ;
+  line-height: 20px;
+  padding: 5px 36px 5px 15px;
+  
+}
+#tieng-viet {
+  border-left: 1px black solid;
+  padding-left: 10px;
+  /* height: 100%; */
+  /* display: flex; */
+  /* margin: 0 auto; */
+  /* align-content: center; */
+}
+/* #tieng-viet a {
+  text-align: center;
+  margin: 0 auto;
+} */
+.mySlides {
+  display:none;
+}
+.w3-left, .w3-right, .w3-badge {
+  cursor:pointer;
+}
+.w3-badge {
+  height:13px;
+  /* width:13px; */
+  padding:0;
+}
+hero {
+  height: 343px;
+}
+section h2 {
+  font-weight: 600;
+  font-size: 2.571em;
+  color: #00BA51;
+  text-align: center;
+  margin-top: 23px;
+  margin-bottom: 23px;
+  font-family: 'Sanomat Grab Web Bold', sans-serif;
+  margin-block-start: 0.83em;
+  margin-block-end: 0.83em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  display: block;
+}
+section p {
+  font-weight: 500;
+  font-size: 1.143em;
+  color: #464B57;
+  text-align: center;
+  margin-top: 0px;
+  margin-bottom: 23px;
+  margin: 0 0 10px;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+/* #grab-a-phone {
+  margin-right: 0px;
+  width: 400px;
+  height: 580px;
+}
+#step {
+  width: 400px;
+  height: 580px;
+} */
+.howto {
+  justify-content: center;  
+}
+.howto div {
+  margin-right: 0px;
+  width: 400px;
+  height: 580px;
+}
+.howto div h4 {
+  cursor: pointer;
+  font-weight: 700;
+  margin-top: 5px;
+  text-align: left;
+}
+.howto div h4:hover {
+  color: #00BA51;
+}
+.howto div p {
+  cursor: pointer;
+  text-align: left;
+}
+#grab-a-phone {
+  width: 400px;
+  height: 580px;
+}
+.banner {
+  background-color: #009d3b;
+  border: transparent 1px solid;
+  height: 392px;
+  text-align: center;
+}
+.banner h2 {
+  font-weight: 600;
+  font-size: 2.571em;
+  color: #fff;
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 113px;
+}
+.banner a {
+  background-color: #fff;
+  color: #00b040;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 16px 20px 15px;
+  font-size: 1.35em;
+  line-height: 1;
+  font-weight: 600;
+  vertical-align: middle;
+  cursor: pointer;
+  border: 1px solid transparent;
+}
+div.download {
+  background-image: url(https://www.grab.com/vn/wp-content/uploads/sites/11/2016/04/dg-dl-grab-back.jpg);
+  background-repeat: no-repeat;
+  /* margin: 0 auto; */
+  height: 458px;
+  background-size: cover;
+}
+div.download h2 {
+  text-align: center;
+  color: #fff;
+  margin: 0 auto;
+}
+#or {
+  margin: auto 0;
+}
+ul.flex {
+  list-style-type: none;
+  justify-content: center;  
+}
+.store {
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+header { 
+  height: 805px; 
+  /* background-color: orange;  */
+}
+footer { 
+  height: 538px; 
+  /* background-color: black;  */
+}
+.flex {
+  display: flex;
+}
+
+
+
+@font-face {
+	font-family: "Sanomat Grab Web Bold";
+	src: url("Sanomat Grab Web-Bold.eot");
+	src: url("Sanomat Grab Web-Bold.eot?#iefix") format("embedded-opentype"),
+	url("Sanomat Grab Web-Bold.woff2") format("woff2"),
+	url("Sanomat Grab Web-Bold.woff") format("woff");
+	font-weight: 700;
+	font-style: normal;
+	font-stretch: normal;
+  }
+@font-face {
+  font-family: "Sanomat Grab Web Bold";
+  src: url("Sanomat Grab Web-Bold.eot");
+  src: url("Sanomat Grab Web-Bold.eot?#iefix") format("embedded-opentype"),
+  url("Sanomat Grab Web-Bold.woff2") format("woff2"),
+  url("Sanomat Grab Web-Bold.woff") format("woff");
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
